@@ -1,0 +1,31 @@
+2020-04-21 18:19:06 DEBUG logging:47 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-04-21 18:19:08 INFO  xnio:63 - XNIO Version 3.0.7.GA
+2020-04-21 18:19:08 INFO  nio:55 - XNIO NIO Implementation Version 3.0.7.GA
+2020-04-21 18:19:08 INFO  remoting:70 - JBoss Remoting version 3.2.14.GA
+2020-04-21 18:19:08 DEBUG nio:88 - Started channel thread 'Remoting "management-client" write-1', selector sun.nio.ch.WindowsSelectorImpl@62670268
+2020-04-21 18:19:08 DEBUG nio:88 - Started channel thread 'Remoting "management-client" read-1', selector sun.nio.ch.WindowsSelectorImpl@1449cc91
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:113 - Generating: arquillian-service
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-testenricher-resource.jar: 10 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-junit.jar: 389 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-testenricher-msc.jar: 6 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-testenricher-osgi.jar: 12 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-testenricher-ejb.jar: 10 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-testenricher-initialcontext.jar: 3 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-core.jar: 551 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:137 - Merging archive: arquillian-testenricher-cdi.jar: 18 assets
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:210 - Loadable extensions: [org.jboss.as.arquillian.service.JMXProtocolEndpointExtension, org.jboss.arquillian.container.test.impl.ContainerTestRemoteExtension, org.jboss.arquillian.testenricher.cdi.container.CDIEnricherRemoteExtension, org.jboss.as.arquillian.service.InContainerManagementClientExtension, org.jboss.arquillian.testenricher.resource.container.ResourceEnricherRemoteExtension, org.jboss.arquillian.testenricher.ejb.container.EJBEnricherRemoteExtension, org.jboss.arquillian.junit.container.JUnitRemoteExtension, org.jboss.arquillian.testenricher.initialcontext.container.InitialContextRemoteExtension, org.jboss.arquillian.testenricher.osgi.OSGiEnricherRemoteExtension, org.jboss.arquillian.testenricher.msc.MSCEnricherRemoteExtension]
+2020-04-21 18:19:15 DEBUG JMXProtocolPackager:241 - Add dependencies: org.jboss.modules,deployment.arquillian-service,org.jboss.msc,org.osgi.core
+2020-04-21 18:19:15 INFO  ArquillianServiceDeployer:62 - Deploy arquillian service: arquillian-service: 1034 assets
+2020-04-21 18:19:17 DEBUG nio:88 - Started channel thread 'Remoting "endpoint" write-1', selector sun.nio.ch.WindowsSelectorImpl@57598e24
+2020-04-21 18:19:17 DEBUG nio:88 - Started channel thread 'Remoting "endpoint" read-1', selector sun.nio.ch.WindowsSelectorImpl@1c75e5c6
+2020-04-21 18:19:17 DEBUG VersionedConectionFactory:173 - Available version (Versions  0x00 0x01)
+2020-04-21 18:19:17 DEBUG VersionedConectionFactory:179 - Calling a stable server
+2020-04-21 18:19:17 DEBUG VersionedConectionFactory:131 - Selecting version 0x00 to receive full version list.
+2020-04-21 18:19:17 DEBUG VersionedConectionFactory:173 - Available version (Versions  0x01 0x02)
+2020-04-21 18:19:17 DEBUG VersionedConectionFactory:179 - Calling a stable server
+2020-04-21 18:19:17 DEBUG VersionedConectionFactory:194 - Server version 1.1.3.Final-redhat-2
+2020-04-21 18:19:18 DEBUG JMXProtocolPackager:241 - Add dependencies: org.jboss.modules,deployment.arquillian-service,org.jboss.msc,org.osgi.core
+2020-04-21 18:19:19 INFO  ArquillianServiceDeployer:87 - Undeploy arquillian service: arquillian-service: 1035 assets
+2020-04-21 18:19:19 ERROR connection:105 - JBREM000200: Remote connection failed: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+2020-04-21 18:19:19 ERROR connection:105 - JBREM000200: Remote connection failed: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+2020-04-21 18:19:19 DEBUG protocol:336 - cancelled operation (48775351) attachment: (org.jboss.as.controller.client.impl.AbstractModelControllerClient$OperationExecutionContext@2cae1042) this: org.jboss.as.protocol.mgmt.ManagementChannelHandler@163d04ff.
